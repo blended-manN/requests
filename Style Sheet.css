@@ -64,6 +64,7 @@ h3{
 }
 
 p {
+    color: indianred;
     text-align: center;
     font-size: 25px;
 }
@@ -72,8 +73,10 @@ p {
 
 .topnav {
     background-color: rgb(35, 35, 35);
+    justify-content: center;
     text-align: center;
     margin-bottom: 9px;
+
 }
 
 .topnav a {
