@@ -10,6 +10,7 @@
     <meta name="keywords" content="Blended ManN, blendedman, The Blended Man, blended_manN, The Blended ManN" />
     <link rel="icon" type="image/x-icon" href="/Images/favicon.png" />
     <link rel="stylesheet" href="Style Sheet.css" />
+    <link rel="script" href="email.js">
 </head>
 
 <!-- Google tag (gtag.js) -->
@@ -69,8 +70,8 @@
                 <input type="email" name="email" placeholder="Email Address" required>
                 <input type="text" name="name" placeholder="Your Name">
                 <input type="text" name="subject" placeholder="Subject" required>
-                <input type="text" name="body" placeholder="Your Message" required>
-                <input type="file" name="attachment" placeholder="Files">
+                <textarea name="body" placeholder="Body" required></textarea>
+                <input type="file" name="attachment" placeholder="Files" data-autosize-input='{ "space": 10 }'>
                 <input type="hidden" name="_next" value="https://blended-mann.github.io/requests/thanks.html">
                 <button type="submit">Send</button>
            </form>
