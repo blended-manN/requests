@@ -152,7 +152,25 @@ input::placeholder {
     color: rgba(199, 81, 121, 0.76)
 }
 
+input[type=file]::file-selector-button {
+    width: 25%;
+    display:flex;
+    border-radius: 25px;
+    justify-content: center;
+    background-color: indianred;
+    color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size:30px;
+    margin-top: 30px;
+    margin-inline: auto;
+}
 
+input[type=file]::file-selector-button:hover {
+    background-color: palevioletred;
+    color: aliceblue;
+}
 
 
 
