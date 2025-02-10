@@ -130,22 +130,22 @@ form {
     padding: 30px;
     width: 75%;
     margin-inline: auto;
-    border-color: black;
+    border: 10px solid rgb(35,35,35);
 }
 
 input {
-    width: 100%;
+    width: 99%;
     display:flex;
     border-radius: 25px;
     justify-content: center;
     background-color: antiquewhite;
     color: indianred;
-    padding: 10px;
     text-align: center;
     text-decoration: none;
     font-size:30px;
     margin-top: 30px;
     margin-inline: auto;
+    font-size: 24pt;
 }
 
 
