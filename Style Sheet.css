@@ -148,6 +148,11 @@ input {
     font-size: 24pt;
 }
 
+input::placeholder {
+    color: rgba(199, 81, 121, 0.76)
+}
+
+
 
 
 
