@@ -117,11 +117,20 @@ button {
     margin-inline: auto;
 }
 
+button:hover{
+    background-color: aliceblue;
+    color: palevioletred;
+}
+
+
 form {
     justify-content: center;
     background-color: indianred;
     border-radius: 25px;
     padding: 30px;
+    width: 75%;
+    margin-inline: auto;
+    border-color: black;
 }
 
 input {
