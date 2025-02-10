@@ -130,7 +130,7 @@ form {
     padding: 30px;
     width: 75%;
     margin-inline: auto;
-    border: 10px solid rgb(35,35,35);
+    border: 10px solid rgb(185, 75, 75);
 }
 
 input {
@@ -138,11 +138,11 @@ input {
     display:flex;
     border-radius: 25px;
     justify-content: center;
-    background-color: antiquewhite;
-    color: indianred;
+    background-color: aliceblue;
+    color: palevioletred;
     text-align: center;
     text-decoration: none;
-    font-size:30px;
+    font-size:25px;
     margin-top: 30px;
     margin-inline: auto;
     font-size: 24pt;
