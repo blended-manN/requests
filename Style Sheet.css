@@ -134,7 +134,7 @@ form {
 }
 
 input {
-    width: 99%;
+    width: 90%;
     display:flex;
     border-radius: 25px;
     justify-content: center;
@@ -146,6 +146,7 @@ input {
     margin-top: 30px;
     margin-inline: auto;
     font-size: 24pt;
+    padding: 10px;
     
 }
 
@@ -166,6 +167,7 @@ input[type=file]::file-selector-button {
     font-size:30px;
     margin-top: 30px;
     margin-inline: auto;
+    
 }
 
 input[type=file]::file-selector-button:hover {
@@ -183,7 +185,8 @@ textarea::placeholder {
 }
 
 textarea {
-    width: 99%;
+    width: 90%;
+    padding: 10px;
     display:flex;
     border-radius: 25px;
     justify-content: center;
