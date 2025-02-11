@@ -173,20 +173,28 @@ input[type=file]::file-selector-button:hover {
     color: aliceblue;
 }
 
-textarea {
-    min-width:200px;
-    width:200px;
-    max-width:300px;
-    resize:none;
-    font-size:18px;
-    overflow-x:hidden;
-    overflow-y:auto;    
-    min-height:1.2em;
-    height:1.2em;
-    padding:2px;
-    max-height:5em;    
-    position:absolute;
-    left:0px;
+input[type=file]::placeholder {
+    color: rgba(199, 81, 121, 0.76);
+    margin-inline: auto;
+
+}
+textarea::placeholder {
+    color: rgba(199, 81, 121, 0.76)
 }
 
+textarea {
+    width: 99%;
+    display:flex;
+    border-radius: 25px;
+    justify-content: center;
+    background-color: aliceblue;
+    color: palevioletred;
+    text-align: center;
+    text-decoration: none;
+    font-size:25px;
+    margin-top: 30px;
+    margin-inline: auto;
+    font-size: 24pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
